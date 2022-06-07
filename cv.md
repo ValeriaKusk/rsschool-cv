@@ -1,6 +1,5 @@
 # *Валерия Куск (@ValeriaKusk)*
 ![me](https://user-images.githubusercontent.com/106627549/172049344-aba0642b-1163-45d2-b942-ed9ff7b5351b.png)
-
 ## Контакты
 
 Телефон: +7 9539414309
