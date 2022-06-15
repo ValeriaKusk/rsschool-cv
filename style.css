@@ -2,22 +2,22 @@ html {
     font-size: 15px;
     scroll-behavior: smooth;
     text-align: center
-
 }
+
 body {
     font-family: 'Roboto', sans-serif;
     font-size: 15px;
-    font-weight: 400;
+    font-weight: normal;
     line-height: 1.2;
     color: #1e1313;
     min-height: 100vh;
-    margin: 0; padding: 0;
-    display: flex;
+   margin: 0; padding: 0;
    flex-direction: column;
    justify-content: space-between;
    background-color: #efa2ec50;
    display:inline-block;
 }
+
 @font-face {
     font-family: Roboto;
      src: url("assets/fonts/Roboto.ttf");
@@ -25,26 +25,29 @@ body {
    * {
     box-sizing: border-box;
   }
-  .header {
+
+.header {
   position: sticky;
   top: 0;
   z-index: 1;
   width: 100%;
-  display: flex;
   justify-content: center;
-  background-color: #d023a8;
+  display: flex;
+  background-color: #adf0a5;
   }
+  
   .container {
     max-width: 1440px;
     margin: 0 auto;
+
   }
   .nav-list {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    list-style-type: none;
-    
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none;  
   }
+
   .nav-link {
     padding: 0 20px;
     line-height: 50px;
@@ -56,27 +59,85 @@ body {
     text-decoration: none;  
     transition: color 0.5s;
   }
+
   .nav-item a:hover {
     color: #4d2323;
-  }
-  .main-container {
-    display: flex;
-    flex-wrap: wrap;
-  }
-  
+}
+
   @media (max-width: 768px) {
     .section {
       width: 100%;
     }
   }
 
-  ul {
+  /*ul {
     align-items: center;
-    }
+    }*/
+
 .About-me {
     font-size: 20px; 
     font-style: italic;
+    border-radius: 30px;
 }
+
+.avatar {
+    border-radius: 50%;
+}
+
 .contacts {
     align-items: center;
+    background: rgb(247, 225, 225);
+    padding: 15px;
+    border-radius: 30px;
+    margin: 20px;
+    list-style: none;
+}
+
+/*box-model*/
+.About-me {
+background: rgb(226, 197, 197);
+padding: 15px;
+border-radius: 30px;
+margin: 20px;
+}
+.summary {
+background: rgb(241, 218, 218);
+padding: 15px;
+border-radius: 30px;
+margin: 20px;
+list-style: none;
+}
+.code {
+background: rgb(238, 208, 208);
+padding: 15px;
+border-radius: 30px;
+margin: 20px;
+}
+.projects {
+background: rgb(242, 212, 212);
+padding: 15px;
+border-radius: 30px;
+margin: 20px;
+}
+.education {
+background: rgb(192, 166, 166);
+padding: 15px;
+border-radius: 30px;
+margin: 20px;
+}
+.languages {
+background: rgb(242, 216, 216);
+padding: 15px;
+border-radius: 30px;
+margin: 20px;
+}
+a {
+    color: #867d7d;
+    text-decoration: underline;
+}
+.media {
+    background: rgb(242, 212, 212);
+    padding: 15px;
+    border-radius: 30px;
+    margin: 20px;
 }
